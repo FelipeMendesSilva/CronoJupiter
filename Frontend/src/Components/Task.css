@@ -1,0 +1,43 @@
+.div-container{
+    display: flex;
+    flex-direction: row;
+    width:400px;
+    margin-left: 0px;
+    padding-left: 50px;
+}
+
+.table-container{
+   display: flex;
+   flex-direction: column;
+   /*flex-wrap: wrap; */
+   width:350px;
+   height: 450px;
+   overflow-y: scroll;
+   overflow-x: hidden;
+
+
+   /* float: left;
+    */
+}
+
+.taskscss{
+    font-size:0.9em;
+    background-color: snow ;
+    margin-top: 3px;
+    
+}
+
+.taskscss:hover{
+    font-size:0.9em;
+    background-color: tomato;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+td{
+    padding: 0px 20px 0px 0px;
+    margin-right: 20px;
+}
+.tb{
+    padding-left: 20px;
+}

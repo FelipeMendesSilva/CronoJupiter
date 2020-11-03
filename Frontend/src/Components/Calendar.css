@@ -1,0 +1,73 @@
+.calendar-container{
+     display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap; 
+    align-content: space-between;
+    margin-top: 30px;
+    float: left;
+    
+       
+}
+
+.navdata{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+.dia{
+    width:40px;
+    height:40px;
+    color: rgb(20, 20, 20);
+    background-color: snow;
+    text-align: right;
+    vertical-align: top;
+    padding:10px;
+}
+[t_selected='false']:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+[t_selected='true']{
+    background-color: #1b1b1bd3;
+    
+    
+}
+[t_selected='dead']{
+    background-image: url("../assets/Imagem.jpg");
+    pointer-events: none;
+    
+}
+[t_selected='hoje'] {
+    background-color: #1d4979;
+    cursor: pointer;
+    
+    
+}
+.mes_atual{
+    color:#1b1b1bd3;
+    font-size: 1.1em;
+}
+.ano_atual{
+    font-variant-position: super;
+    padding-left: 5px;
+
+}
+.s{
+    width:60px;
+    height:30px;
+    text-align: center;
+    padding-right: 0px;
+    color: #1b1b1bd3;
+    font-weight: 100;
+    
+}
+
+
+
+
+.dia>div{
+    font-size:0.8em;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+}

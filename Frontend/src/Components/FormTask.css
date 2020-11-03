@@ -1,0 +1,73 @@
+.flex-container{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+    width: 200px;
+
+}
+input{
+    width: 180px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-size: 0.9em;
+    border:0;
+    height: 30px;
+    
+}
+label{
+    width: 100%;
+
+}
+textarea{
+    width: 180px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 10px;
+    border:0;
+    font-size: 0.9em;
+    
+}
+select{
+    width: 50%;
+    padding: 0;
+    
+}
+
+.pickerColor{
+    width: 40px;
+    height: 40px;
+    border: solid 1px;
+}
+.pickerColor:hover{ cursor: pointer;}
+
+.container-cores{
+    display:flex;
+    flex-direction: row;
+}
+.container-cores:hover{ cursor: pointer;}
+
+.cor1{width: 20px; height:20px; background-color: #7a136d;}
+.cor2{width: 20px; height:20px; background-color: #438823;}
+.cor3{width: 20px; height:20px; background-color: #5627a3;}
+.cor4{width: 20px; height:20px; background-color: #ebe71b;}
+.cor5{width: 20px; height:20px; background-color: #d87f0a;}
+.cor6{width: 20px; height:20px; background-color: #ce1251;}
+.cor7{width: 20px; height:20px; background-color: #1299ce;}
+.cor8{width: 20px; height:20px; background-color: #3bcf28;}
+.cor9{width: 20px; height:20px; background-color:  #94bbca;}
+.cor10{width: 20px; height:20px; background-color: #cf2828;}
+
+.salvar{
+    float:right;
+    margin-left:10px;
+    background-color:#1d4979 ;
+    color: white;
+}
+.cancelar{
+    float:right;
+    margin-left:10px;
+}
+
+
+

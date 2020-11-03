@@ -1,0 +1,33 @@
+
+html{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: rgb(129, 148, 190);
+    background-image: url("../assets/Imagem.jpg");
+    background-repeat: repeat;
+    max-width:1250px;
+    
+}
+
+button{
+    margin-left:0px;
+    height:30px;
+    background-color: snow;
+    box-shadow: none;
+    border:none;
+    
+}
+button:hover{
+    background-color:tomato;
+}
